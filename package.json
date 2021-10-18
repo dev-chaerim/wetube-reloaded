@@ -7,7 +7,7 @@
     "url": "git+https://github.com/zzemoo/wetube-reloaded01~.git"
   },
   "scripts": {
-    "dev": "nodemon -L --exec babel-node src/init.js"
+    "start": "nodemon -L --exec babel-node src/init.js"
   },
   "author": "Chaerim",
   "license": "MIT",
@@ -16,6 +16,7 @@
   },
   "homepage": "https://github.com/zzemoo/wetube-reloaded01~#readme",
   "dependencies": {
+    "bcrypt": "^5.0.1",
     "express": "^4.17.1",
     "mongoose": "^6.0.7",
     "morgan": "^1.10.0",
